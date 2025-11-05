@@ -1,0 +1,40 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "joao.silva@exemplo.com",
+      "password": "senha123",
+      "nomeCompleto": "João da Silva",
+      "dataNascimento": "1990-05-15",
+      "genero": "Masculino",
+      "convenioMedico": "SulAmérica"
+    },
+    {
+      "id": 2,
+      "email": "maria.santos@exemplo.com",
+      "password": "password456",
+      "nomeCompleto": "Maria Santos Oliveira",
+      "dataNascimento": "1985-11-22",
+      "genero": "Feminino",
+      "convenioMedico": "Bradesco Saúde"
+    },
+    {
+      "id": 3,
+      "email": "alex.gomes@exemplo.com",
+      "password": "admin!@",
+      "nomeCompleto": "Alex Gomes",
+      "dataNascimento": "2000-02-01",
+      "genero": "Prefiro não informar",
+      "convenioMedico": "Bradesco Saúde"
+    },
+    {
+      "id": 4,
+      "email": "ana.pereira@exemplo.com",
+      "password": "ana<3gatos",
+      "nomeCompleto": "Ana Clara Pereira",
+      "dataNascimento": "1998-07-30",
+      "genero": "Feminino",
+      "convenioMedico": "Amil"
+    }
+  ]
+}
