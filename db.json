@@ -1,40 +1,107 @@
 {
-  "usuarios": [
+  "users": [
     {
-      "id": 1,
-      "email": "joao.silva@exemplo.com",
+      "id": "u1001",
+      "name": "Felipe Andrade",
+      "email": "felipe.andrade@example.com",
+      "password": "123456",
+      "birthDate": "1999-03-12",
+      "gender": "M",
+      "plan": "PREMIUM"
+    },
+    {
+      "id": "u1002",
+      "name": "Laura Nascimento",
+      "email": "laura.nascimento@example.com",
+      "password": "abcdef",
+      "birthDate": "1987-07-25",
+      "gender": "F",
+      "plan": "FREE"
+    },
+    {
+      "id": "u1003",
+      "name": "Rafael Costa",
+      "email": "rafael.costa@example.com",
       "password": "senha123",
-      "nomeCompleto": "João da Silva",
-      "dataNascimento": "1990-05-15",
-      "genero": "Masculino",
-      "convenioMedico": "SulAmérica"
+      "birthDate": "1995-11-03",
+      "gender": "M",
+      "plan": "PREMIUM"
     },
     {
-      "id": 2,
-      "email": "maria.santos@exemplo.com",
-      "password": "password456",
-      "nomeCompleto": "Maria Santos Oliveira",
-      "dataNascimento": "1985-11-22",
-      "genero": "Feminino",
-      "convenioMedico": "Bradesco Saúde"
+      "id": "u1004",
+      "name": "Beatriz Lima",
+      "email": "beatriz.lima@example.com",
+      "password": "qwerty",
+      "birthDate": "2000-02-18",
+      "gender": "F",
+      "plan": "FREE"
     },
     {
-      "id": 3,
-      "email": "alex.gomes@exemplo.com",
-      "password": "admin!@",
-      "nomeCompleto": "Alex Gomes",
-      "dataNascimento": "2000-02-01",
-      "genero": "Prefiro não informar",
-      "convenioMedico": "Bradesco Saúde"
+      "id": "u1005",
+      "name": "Lucas Mendes",
+      "email": "lucas.mendes@example.com",
+      "password": "teste123",
+      "birthDate": "1992-09-09",
+      "gender": "M",
+      "plan": "FREE"
+    }
+  ],
+  "exams": [
+    {
+      "id": "e1a9f2b0-6f5c-4d2b-a8c1-1f2a8b3c9d01",
+      "userId": "u1001",
+      "title": "Hemograma completo",
+      "category": "BLOOD",
+      "date": 1688208000000
     },
     {
-      "id": 4,
-      "email": "ana.pereira@exemplo.com",
-      "password": "ana<3gatos",
-      "nomeCompleto": "Ana Clara Pereira",
-      "dataNascimento": "1998-07-30",
-      "genero": "Feminino",
-      "convenioMedico": "Amil"
+      "id": "b2c6d7e8-9f01-4a2b-bcde-2a3b4c5d6e02",
+      "userId": "u1002",
+      "title": "Glicemia em jejum",
+      "category": "BLOOD",
+      "date": 1704067200000
+    },
+    {
+      "id": "c3d7e9f0-1a23-4b56-abcd-3f4e5d6c7b03",
+      "userId": "u1001",
+      "title": "PCR para SARS-CoV-2",
+      "category": "OTHER",
+      "date": 1672444800000
+    },
+    {
+      "id": "d4e8f0a1-2b34-4c67-bcde-4a5b6c7d8e04",
+      "userId": "u1003",
+      "title": "Perfil lipídico",
+      "category": "BLOOD",
+      "date": 1696118400000
+    },
+    {
+      "id": "e5f901b2-3c45-4d78-cdef-5b6c7d8e9f05",
+      "userId": "u1004",
+      "title": "Ultrassom abdominal",
+      "category": "IMAGE",
+      "date": 1711920000000
+    },
+    {
+      "id": "f6a012c3-4d56-4e89-def0-6c7d8e9f0a06",
+      "userId": "u1002",
+      "title": "Eletrocardiograma",
+      "category": "CARDIO",
+      "date": 1669852800000
+    },
+    {
+      "id": "07b123d4-5e67-4f90-0abc-7d8e9f0a1b07",
+      "userId": "u1005",
+      "title": "Urina tipo 1",
+      "category": "URINE",
+      "date": 1693526400000
+    },
+    {
+      "id": "18c234e5-6f78-4a01-1bcd-8e9f0a1b2c08",
+      "userId": "u1001",
+      "title": "Teste de alergia (IgE total)",
+      "category": "OTHER",
+      "date": 1722508800000
     }
   ]
 }
